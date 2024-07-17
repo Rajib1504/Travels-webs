@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+:root {
+  --dark01: #131318;
+  --dark02: #424247;
+  --dark03: rgba(19, 19, 24, 0.7);
+  --dark04: #5A5A5D;
+  --dark05: #1313184D;
+  --orange01: #FF5400;
+  --white01: #FFFFFF;
+  --imgcover: rgba(19, 19, 24, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+  /* Nav styles */
+nav {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 30px;
+}
+
+.orange {
+  color: var(--orange01);
+}
+
+.logo-text {
+  font-family: Mulish;
+  font-size: 2rem;
+  font-weight: 800;
+  display: inline;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.menu-content {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.link-menu{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Main Style  */
+main{
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+}
+ /* banner contents style  */
+section{
+  margin: 4rem 0;
+}
+ /* Banner img style */
+.banner{
+  background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url(./Images/banner.png);
+  background-repeat: no-repeat;
+  height: 31.25rem;
+  /* height: 10%; */
+  width: 100%;
+  border-radius: 1rem;
+  margin: 0 auto;
+  border: 2px solid rgb(241, 247, 241);
+} 
+ .head{
+  text-align: center;
+ }
+.banner-content{
+  width: 80%;
+  margin: 9rem auto;
+  /* border: 2px solid red; */
+}
+.banner-text{
+  /* border: 1px solid blue; */
+  text-align: center;
+  margin: 0 auto 1.0rem;
+}
+.banner-title{
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 1rem 0 1.1rem;
+  color: var(--white01);   
+}
+.banner-des{
+  color: var(--white01);
+  margin-bottom: 1.9rem;
+}
+/* Banner input  */
+.banner-input{
+  background-color: rgb(255 255 255 / 0.3);
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 10px;
+  width: 68vw;
+
+}
+/* inputs style  */
+.btn-1{
+  margin: 0 15px;
+  height: 2.6rem;
+  width: 14vw;
+  border-radius: 8px;
+  background-color: var(--white01);
+  color: var(--dark03);
+  border: 0;
+}
+/* banner-button  */
+.banner-button{
+  background-color: var(--orange01);
+  color: var(--white01);
+  border: 0;
+  
+} 
+.bnr{
+  margin-left: 0.6rem;
+}
+/* popular-tour style */
+.popular-tour{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 3rem;
+  margin-top: 6rem;
+}
+.populer-box1{
+/* border: 2px solid black; */
+margin-top: 2rem;
+}
+/* title */
+.p-title{
+font-size: 2.3rem;
+font-weight: 800;
+text-align: center;
+color: var(--dark01);
+}
+/* description */
+.p-des{
+  color: var(--dark03);
+font-size: 0.8rem;
+font-weight: 400;
+line-height: 1.2rem;
+margin: 5px auto;
+}
+/* ul list  */
+.p-list{
+padding: 0.5rem;
+}
+.p-list li{
+  color: var(--dark03);
+  margin: 0.7rem 0;
+ text-align: left;
+}
+.orange-btn{
+  border-radius: 8px;
+  font-weight: 800;
+  color: var(--white01);
+  background-color: var(--orange01);
+  padding: 1rem;
+  border: 0;
+}
+.b{
+  margin: 1rem;
+}
+
+/* .populer-box2 style*/
+/* no style  */
+
+/* Destination style  */
+.destination{
+  /* width: 35rem; */
+  text-align: center;
+  margin: 0 auto;
+}
+.des-1 {
+    width: 35rem;
+    margin: 0 auto;
+}
+/* text styles  */
+
+/* title  */
+.des-title{
+  font-size: 2.3rem;
+  font-weight: 800;
+  text-align: center;
+}
+/* description  */
+.des-details{
+  font-weight: 400;
+  font-size: 0.7rem;
+  margin: 1rem 0 0;
+  color: var(--dark03);
+  text-align: center;
+  
+}
+
+/* imges style  */
+
+.des-img{
+  height: 13.75rem;
+  width:100%;
+  filter: brightness(70%);
+}
+
+.row-1,.row-2,.row-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0.4rem 0;
+  gap: 0.5rem;
+
+}
+.country-1{
+  position: relative;
+}
+.img-text{
+  position: absolute;
+    font-size: 1.5rem;
+    font-weight: 800;
+    top: 50%;
+    right: 50%;
+    color: white;
+    transform: translate(50%, -50%);
+}
+.row-2{
+  grid-template-columns: 0.8fr 1.5fr 0.7fr;
+}
+
+.row-3{
+  grid-template-columns: 0.8fr 1.2fr;
+}
+
+
+
+
