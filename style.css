@@ -637,6 +637,9 @@ p.foot-des {
   font-size: 0.89rem;
   color: var(--dark03);
   margin-bottom: 2rem;
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .foot-img-container {
